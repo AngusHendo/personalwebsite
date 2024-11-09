@@ -2,4 +2,4 @@ title: "Angus Henderson's Portfolio"
 description: "A website to showcase my projects, research, and more."
 baseurl: "" # Leave empty if deploying to https://[username].github.io
 url: "https://AngusHendo.github.io"
-theme: minima # You can use a Jekyll theme or create custom styles
+theme: jekyll-theme-minimal
