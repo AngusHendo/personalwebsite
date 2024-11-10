@@ -102,3 +102,75 @@ footer {
         padding: 15px;
     }
 }
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Profile Image */
+.profile-image {
+    width: 240px;             /* Set the image size */
+    height: 360px;
+    border-radius: 5%;       /* Make it circular */
+    margin-right: 20px;       /* Space between image and content */
+    object-fit: cover;        /* Keep image aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Main Content */
+.main-content h2 {
+    font-size: 1.8rem;
+    color: #005f73;
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Waikaka Image */
+.waikaka-image {
+    width: 80%;             /* Set the image size */
+    /* height: 200px; */
+    border-radius: 5%;       /* Make it circular */
+    object-fit: cover;        /* Keep image aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Collage Section */
+.collage-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.photo-collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.photo-collage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;            /* Rounded corners */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+.photo-collage img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
